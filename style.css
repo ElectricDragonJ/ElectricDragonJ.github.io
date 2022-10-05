@@ -276,10 +276,6 @@ h1{
   min-height: 100vh;
 }
 
-#metertile{
-  position: absolute;
-}
-
 @keyframes MoveUpDown {
   0%, 100% {
     bottom: 5vh;
