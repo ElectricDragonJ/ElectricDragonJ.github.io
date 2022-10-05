@@ -274,6 +274,11 @@ h1{
   background-size: 256px;
   background-blend-mode: multiply;
   min-height: 100vh;
+
+  animation-name: BGMove;
+  animation-duration: 200s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 
@@ -297,4 +302,13 @@ h1{
 
 .disclaimer{
   display: none !important;
+}
+
+@-webkit-keyframes BGMove {
+    from {
+        background-position: 0% 0%
+    }
+    to {
+        background-position: 187% 50%
+    }
 }
